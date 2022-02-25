@@ -5,12 +5,12 @@ lower = "abcdufghijklmnopqrstuvwxyz"
 upper = "ABCDUFGHIJKLMNOPQRSTUVWXYZ"
 number = "0123456789"
 symbol = "{}[]()#;.,+-*$@"
-print("PLease enter your password length")
+print("Your password is below....")
 x = int(input())
 all = lower + upper + number + symbol
 length = x
 password = "".join(random.sample(all,length))
-print("Your password is",password)
+print(password)
 
 
 
